@@ -42,12 +42,14 @@ let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"]);
 
 // const text = document.querySelector('h1')
-// text.innerHTML = 'Dom <br> is <br> awesome!'
-
-
-
+// text.innerHTML = 'Dom <br> is <br> awesome!
 // "button": "Get Started",
 
+const newBut = document.querySelector('button');
+newBut.textContent = 'Get Started';
+
+
+// cta.children[1].textContent = siteContent["cta"]["button"]
 
 const text = document.querySelector('h1');
 text.innerHTML = 'DOM <br> IS <br> AWESOME';
